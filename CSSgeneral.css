@@ -1,0 +1,57 @@
+
+body{
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+}
+.Logo-Delicias{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+nav {
+    border-top: 1px solid ;
+    border-bottom: 1px solid ;
+    display: flex  ;
+    justify-content: center;
+    list-style-type: none;  
+}
+li {
+    text-transform: uppercase;
+    margin: 10px;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #7ABA96;
+    font-size: 18px;  
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+footer{
+    height: 50px;
+    background-color: black;
+}
+footer ul{
+    display: flex;
+    color: blanchedalmond;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+h3{
+    display: flex ;
+    justify-content: center;
+}
+article{
+    
+    height: 485px;
+    width: 450px;
+    margin: 10px;
+}

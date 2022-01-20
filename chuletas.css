@@ -1,0 +1,73 @@
+main img{
+    height: 600px;
+    width: 800px;
+}
+main{
+    padding-left: 50px;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ingredients li {
+    border-top: 2px solid #7ABA96;
+    padding:2px 0px;
+    font-size:18px;
+    list-style-type: none;
+}
+
+.info {
+    color: #576673; 
+    display: inline-block;
+    padding: .2em .8em;
+    border-radius: 30px;
+    background-color: #f5f7f7;
+    margin: 0 .5em .5em 0;
+}
+.pasos{ 
+    height: 650px;
+    margin-top: 90px;
+}
+.pasos li{
+    border-top: 2px solid #7ABA96;
+    padding: 2px 0px;
+    font-size: 18px;
+    list-style: circle;
+    width: 1500px;
+    height: 60px;
+    text-transform: none;
+}
+.final{ 
+    height: 700px;
+    width: 2000px
+}
+footer{
+    height: 50px;
+    background-color: black;
+}
+footer ul{
+    display: flex;
+    color: blanchedalmond;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+h5{
+    font-size: 20px;
+}
+.comentario{
+    height: 100px;
+}
+input{
+    height: 50px;
+    width: 90%;
+}
+button{
+    border: 1px solid black;
+    background-color: #7ABA96;
+    width: 50px;
+    margin: 10px auto;
+    height: 40px;
+    cursor: pointer;
+}
